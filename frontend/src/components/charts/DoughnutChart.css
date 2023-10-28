@@ -1,0 +1,6 @@
+/* ในไฟล์ CSS ของ DoughnutChart */
+.doughnut-chart-container {
+    max-width: 100%; /* ปรับขนาดสูงสุดให้ไม่เกินพื้นที่ของ card-body */
+    height: auto; /* ปรับความสูงอัตโนมัติให้สอดคล้องกับความกว้าง */
+  }
+  

@@ -1,0 +1,54 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.css"); */
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* custom.css */
+
+.custom-text-size {
+  font-size: 24px; /* ปรับขนาดตัวอักษรตามที่คุณต้องการ */
+}
+
+.custom-iframe:hover {
+  border: 2px solid red; /* เปลี่ยนสีขอบเป็นสีแดงเมื่อ hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* เพิ่มเงาเมื่อ hover */
+  transform: scale(1.05); /* เพิ่มขนาดเล็กน้อยเมื่อ hover */
+  transition: all 0.3s ease; /* เพิ่มเอฟเฟกต์ transition */
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 
